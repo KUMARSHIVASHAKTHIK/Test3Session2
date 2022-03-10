@@ -1,1 +1,14 @@
 
+void output(int n,int r,int fact)
+{
+  printf("the valuse of %d C %d if %d\n",n,r,fact);
+}
+int main()
+{
+ int a,b,c;
+  input_n_and_r(&a,&b);
+  c=ncr(a,b);
+  output(a,b,c);
+  return 0;
+}
+
